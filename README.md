@@ -15,7 +15,7 @@ This is a Spring Boot-based application for managing a product inventory. The sy
 - **Spring Boot**
 - **Spring Data JPA**
 - **Hibernate**
-- **H2 Database** (or any JPA-compatible database)
+- **MYSQL Database** (or any JPA-compatible database)
 
 ## Project Structure
 
@@ -81,9 +81,7 @@ This is a Spring Boot-based application for managing a product inventory. The sy
    mvn spring-boot:run
    ```
 
-4. Access the application:
-   - Test endpoint: `http://localhost:8080/hello`
-   - Product endpoints: `http://localhost:8080/products`
+
 
 ## Example Request and Response
 
@@ -142,8 +140,6 @@ GET /products
 - Enhance error handling with custom exception handling.
 - Add support for paginated and filtered product retrieval.
 
-## License
-This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## Author
 [Ram Kumar](https://github.com/ramk06)
